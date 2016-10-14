@@ -1,4 +1,4 @@
-package dialect;
+package src.test.dialect;
 
 /**
  * Created with IntelliJ IDEA.

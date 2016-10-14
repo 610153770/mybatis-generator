@@ -1,4 +1,4 @@
-package dialect;
+package src.test.dialect;
 
 public class OracleDialect extends Dialect {
 
