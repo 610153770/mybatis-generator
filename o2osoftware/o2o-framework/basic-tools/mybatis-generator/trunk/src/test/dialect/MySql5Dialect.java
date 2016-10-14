@@ -1,4 +1,4 @@
-package dialect;
+package src.test.dialect;
 
 public class MySql5Dialect extends Dialect {
 

@@ -1,7 +1,5 @@
-import dialect.Dialect;
-import dialect.MySql5Dialect;
-import dialect.OracleDialect;
-import dialect.SQLServer2005Dialect;
+package src.test;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.ibatis.executor.statement.StatementHandler;
@@ -12,6 +10,11 @@ import org.apache.ibatis.reflection.factory.DefaultObjectFactory;
 import org.apache.ibatis.reflection.wrapper.DefaultObjectWrapperFactory;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.RowBounds;
+import src.test.dialect.Dialect;
+import src.test.dialect.MySql5Dialect;
+import src.test.dialect.OracleDialect;
+import src.test.dialect.SQLServer2005Dialect;
+
 import java.sql.Connection;
 import java.util.Properties;
 

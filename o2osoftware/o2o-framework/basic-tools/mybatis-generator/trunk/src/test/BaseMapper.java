@@ -1,4 +1,6 @@
-import com.yykaoo.mybatis.pagination.Page;
+package src.test;
+
+import com.o2o.software.mybatis.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 import java.io.Serializable;
 import java.util.List;
